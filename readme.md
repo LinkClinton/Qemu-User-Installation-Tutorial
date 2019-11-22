@@ -29,7 +29,7 @@ sudo apt-get install libc6-mipsel-cross
 
 安装完后，对应的所有的动态库在`/usr/mipsel-linux-gnu`文件夹内，我们在使用qemu的时候需要显式的告诉qemu这个动态库目录(`-L`)。
 
-注意，Ubuntu只有19.0x版本的提供了这个包，其他版本的需要自行想版本下载。例如使用Debian的源，或者手动下载。
+注意，Ubuntu只有19.0x版本的提供了这个包，其他版本的需要自行想办法下载。例如使用Debian的源，或者手动下载。
 
 ### Optional
 
